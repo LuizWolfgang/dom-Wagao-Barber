@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/dom-Wagao-Barber/static/js/main.b15a86f8.chunk.js",
+    "main.js.map": "/dom-Wagao-Barber/static/js/main.b15a86f8.chunk.js.map",
+    "runtime-main.js": "/dom-Wagao-Barber/static/js/runtime-main.3167a30c.js",
+    "runtime-main.js.map": "/dom-Wagao-Barber/static/js/runtime-main.3167a30c.js.map",
+    "static/js/2.bb7c2ca3.chunk.js": "/dom-Wagao-Barber/static/js/2.bb7c2ca3.chunk.js",
+    "static/js/2.bb7c2ca3.chunk.js.map": "/dom-Wagao-Barber/static/js/2.bb7c2ca3.chunk.js.map",
+    "index.html": "/dom-Wagao-Barber/index.html",
+    "static/js/2.bb7c2ca3.chunk.js.LICENSE.txt": "/dom-Wagao-Barber/static/js/2.bb7c2ca3.chunk.js.LICENSE.txt",
+    "static/media/close.f62862c6.svg": "/dom-Wagao-Barber/static/media/close.f62862c6.svg",
+    "static/media/income.d58effe2.svg": "/dom-Wagao-Barber/static/media/income.d58effe2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3167a30c.js",
+    "static/js/2.bb7c2ca3.chunk.js",
+    "static/js/main.b15a86f8.chunk.js"
+  ]
+}
