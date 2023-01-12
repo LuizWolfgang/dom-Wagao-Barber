@@ -6,7 +6,6 @@ export const TransactionsTable = () => {
   const { transactions, deleteTransaction } = useTransactions();
 
   async function deleteTransactionId(transactionId: any) {
-    console.log('oioio', transactionId)
     deleteTransaction(transactionId);
     toast.success('Excluido com sucesso');
   }
