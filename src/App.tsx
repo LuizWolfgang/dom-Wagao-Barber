@@ -8,8 +8,7 @@ import { Header } from "./components/Header";
 import { NewTransactionModal } from './components/NewTransactionModal';
 
 import { GlobalStyle } from "./styles/global";
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 Modal.setAppElement('#root');
 
@@ -31,7 +30,6 @@ export const App = () => {
     
     <TransactionProvider>
       <GlobalStyle />
-        <ToastContainer position="top-right"/>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
 
       <Dashboard />

@@ -7,7 +7,7 @@ export const TransactionsTable = () => {
 
   async function deleteTransactionId(transactionId: any) {
     deleteTransaction(transactionId);
-    toast.success('Excluido com sucesso');
+    alert('Clique no OK para excluir');
   }
   return (
     <Container>
