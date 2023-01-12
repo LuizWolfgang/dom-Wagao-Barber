@@ -35,8 +35,9 @@ export const NewTransactionModal = ({
     event.preventDefault();
     
     if(!title || !amount || !category){
-      alert('Todos os campos devem estar')
+      return alert('Todos os campos devem estar')
     }
+    
     setLoading(true)
     console.log('category', category)
     await createTransaction({ type, title, amount, category });
