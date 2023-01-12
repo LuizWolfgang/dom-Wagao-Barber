@@ -35,7 +35,7 @@ export const NewTransactionModal = ({
     event.preventDefault();
     
     if(!title || !amount || !category){
-      return alert('Todos os campos devem estar')
+      return alert('Preencha todos os campos')
     }
     
     setLoading(true)
