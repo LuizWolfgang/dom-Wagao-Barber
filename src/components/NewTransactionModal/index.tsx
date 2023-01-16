@@ -101,6 +101,7 @@ export const NewTransactionModal = ({
               <MenuItem value="WAGAO">WAGAO</MenuItem>
               <MenuItem value="ALISSON">ALISSON</MenuItem>
               <MenuItem value="BEBIDAS">BEBIDAS</MenuItem>
+              <MenuItem value="GASTOSBARBEARIA">GASTOS BARBEARIA</MenuItem>
             </Select>
           </FormControl>
          </Box>

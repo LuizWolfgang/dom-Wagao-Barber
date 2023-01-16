@@ -32,6 +32,13 @@ export const Summary = () => {
 
       return acc;
     }
+
+    if(transaction.category === "GASTOSBARBEARIA"){
+      acc.gastosBarbearia += transaction.amount;
+      acc.total += transaction.amount;
+
+      return acc;
+    }
     // else {
     //   acc.deposits += transaction.amount;
     //   acc.total += transaction.amount;
@@ -43,6 +50,7 @@ export const Summary = () => {
     wagao: 0,
     alisson: 0,
     bebidas: 0,
+    gastosBarbearia:0,
     withdraws: 0,
     total: 0
   });
@@ -85,6 +93,19 @@ export const Summary = () => {
             style: 'currency',
             currency: 'BRL'
           }).format(summary.bebidas)}
+        </strong>
+      </div> 
+
+      <div>
+        <header>
+          <p>Gastos barbearia</p>
+          <img src={incomeImg} alt="Saídas" />
+        </header>
+        <strong>
+          {new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: 'BRL'
+          }).format(summary.gastosBarbearia)}
         </strong>
       </div> 
 
